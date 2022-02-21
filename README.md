@@ -21,6 +21,7 @@ Processo: O usuário altera as informações informadas acima.
 
 Saída: O sistema exibe mensagem de Alterado com Sucesso. 
 
+
 RF02. Cancelar reserva
 
 Descrição: O usuário deseja cancelar a reserva de um veículo.
@@ -30,6 +31,7 @@ Entrada: O motivo do cancelamento.
 Processo: O sistema verifica se a reserva obedece a regra de negócio de cancelamento da reserva, calcula os valores do reembolso, informa o usuário e altera o status da reserva.
 
 Saída: O sistema exibe mensagem de Cancelado com Sucesso. 
+
 
 RF03. Buscar reserva
 
@@ -41,6 +43,7 @@ Processo: O sistema verifica se existe reserva com o número informado e retorna
 
 Saída: O sistema exibe as informações da reserva. 
 
+
 RF 04. Retirar veículo
 
 Descrição: O usuário registra a retirada do veículo no sistema. 
@@ -50,6 +53,7 @@ Entrada: Local de retirada e de devolução, data e hora de retirada e devoluç�
 Processo: O sistema registra a retirada do veículo, valida a RN2 e altera o status do veículo para alugado.
 
 Saída: O sistema exibe mensagem de Veículo Retirado com Sucesso.
+
 
 RF 05. Devolver veículo
 
@@ -61,6 +65,7 @@ Processo: O sistema registra os dados de devolução e altera o status do veícu
 
 Saída: O sistema exibe mensagem de Veículo Devolvido com Sucesso.
 
+
 RF 06. Registrar multa
 
 Descrição: O usuário deseja registrar as multas do contratante referente as datas da locação.
@@ -70,6 +75,7 @@ Entrada: Nome do condutor, CNH, placa e modelo do veículo, informação da autu
 Processo: O sistema cadastra as informações e registra a cobrança para o contratante.
 
 Saída: O sistema exibe a mensagem de Multa Registrada com Sucesso.
+
 
 RF 07. Buscar veículos
 
@@ -81,6 +87,7 @@ Processo: O sistema busca no banco de dados e retorna as informações do veícu
 
 Saída: O sistema exibe as informações do veículo buscado.
 
+
 RF 08. Adicionar condutor
 
 Descrição: O usuário adiciona um condutor extra para a reserva do veículo.
@@ -90,6 +97,7 @@ Entrada: Nome do condutor, CNH, CPF, endereço, e-mail e telefone.
 Processo: O sistema registra as informações e adiciona o condutor extra. 
 
 Saída: O sistema exibe a mensagem de Condutor Adicionado.
+
 
 RF 09. Alterar veículo
 
@@ -101,6 +109,7 @@ Processo: O sistema registra alteração do veículo, altera o status do veícul
 
 Saída: O sistema exibe a mensagem de Alteração Realizada
 
+
 RF 10. Realizar upgrade de veículo
 
 Descrição: O usuário deseja realizar o upgrade para um veículo melhor da mesma categoria.
@@ -110,6 +119,7 @@ Entrada: Modelo do veículo, placa do veículo e descrição.
 Processo: O sistema registra o upgrade do veículo e valida a RN5. 
 
 Saída: O sistema exibe a mensagem Upgrade Realizado.
+
 
 D – REQUISITOS NÃO FUNCIONAIS
 
@@ -124,6 +134,7 @@ O sistema deve ter um layout intuitivo, que seja fácil de aprender e de utiliza
 -	Portabilidade
 
 O sistema deve funcionar no sistema operacional Windows a partir da versão 8.0.
+
 
 E – REGRAS DE NEGÓCIOS
 
@@ -147,4 +158,4 @@ Se o cliente conduzir sob a influência de álcool ou drogas, utilizar o veícul
 
 RN5 – Upgrade de Veículo
 
-Só será permitido realizar upgrade de veículos da mesma categoria
+Só será permitido realizar upgrade de veículos da mesma categoria.
