@@ -18,9 +18,13 @@ Processo: O usuário altera as informações informadas acima.
 Saída: O sistema exibe mensagem de Alterado com Sucesso. 
 
 RF02. Cancelar reserva
+
 Descrição: O usuário deseja cancelar a reserva de um veículo.
+
 Entrada: O motivo do cancelamento.
+
 Processo: O sistema verifica se a reserva obedece a regra de negócio de cancelamento da reserva, calcula os valores do reembolso, informa o usuário e altera o status da reserva.
+
 Saída: O sistema exibe mensagem de Cancelado com Sucesso. 
 
 RF03. Buscar reserva
