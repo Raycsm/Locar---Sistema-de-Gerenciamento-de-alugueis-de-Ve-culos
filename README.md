@@ -165,3 +165,9 @@ F – DER (Diagrama Entidade Relacionamento)
 
 
 ![der locar](https://user-images.githubusercontent.com/90047383/154980370-2818932b-3657-43b2-9975-a2d45d38f7dd.png)
+
+
+G – DIAGRAMA DE CASO DE USO
+
+
+![caso de uso locar](https://user-images.githubusercontent.com/90047383/154980706-74cfe3da-d9a2-47a2-8438-0706845bbe1b.png)
