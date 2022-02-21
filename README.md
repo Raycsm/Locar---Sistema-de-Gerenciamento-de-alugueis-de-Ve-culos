@@ -159,3 +159,9 @@ Se o cliente conduzir sob a influência de álcool ou drogas, utilizar o veícul
 RN5 – Upgrade de Veículo
 
 Só será permitido realizar upgrade de veículos da mesma categoria.
+
+
+F – DER (Diagrama Entidade Relacionamento)
+
+
+![der locar](https://user-images.githubusercontent.com/90047383/154980370-2818932b-3657-43b2-9975-a2d45d38f7dd.png)
